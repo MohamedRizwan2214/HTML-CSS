@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Static Webpage Layout</title>
+    <style>
+      body {
+        background-color: white;
+        padding: 0;
+        margin: 0;
+
+        /* font: "Arial", sans-serif; */
+      }
+      .head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: whitesmoke;
+        padding: 10px;
+      }
+      nav {
+        text-align: center;
+        padding: 10px;
+      }
+      header {
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        padding-left: 10%;
+        padding: 10px;
+      }
+      .main1,
+      .main2 {
+        font-size: 20px;
+        padding: 7%;
+        margin: 10px;
+      }
+      .main1 {
+        background-color: royalblue;
+      }
+      .main2 {
+        background-color: lightcoral;
+      }
+      footer {
+        text-align: center;
+        background-color: black;
+        color: white;
+        padding: 10px;
+      }
+      @media (max-width: 768px) {
+        .head {
+          flex-direction: column;
+          text-align: center;
+        }
+        nav {
+          padding-top: 10px;
+        }
+        .main1,
+        .main2 {
+          font-size: 10px;
+          padding: 5%;
+          margin: 5px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="head">
+      <header>Static Webpage Layout</header>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Profile</a>
+        <a href="#">Status</a>
+      </nav>
+    </div>
+    <main>
+      <div class="main1">
+        This is a static page for HTML and CSS Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Quibusdam repellat ab ipsa consectetur
+        magni aperiam incidunt reiciendis beatae numquam dolore vitae nostrum
+        ullam doloremque laudantium debitis nihil, quo aliquam facere?
+      </div>
+      <div class="main2">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat ex,
+        facere eum, veritatis vel, alias aperiam enim quia itaque error
+        laboriosam ratione quos libero. Eligendi accusamus magnam excepturi
+        possimus deleniti.
+      </div>
+    </main>
+
+    <footer>&copy; 2020 Static Webpage Layout</footer>
+  </body>
+</html>
