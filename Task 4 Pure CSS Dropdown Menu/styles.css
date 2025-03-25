@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+}
+.header {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 200;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.navbar {
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  background-color: #333;
+  color: white;
+  border-radius: 5px;
+}
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+.menu-item {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-link {
+  display: block;
+  padding: 12px 20px;
+  color: white;
+  text-decoration: none;
+  background-color: #333;
+  transition: background-color 0.5s ease;
+  border-radius: 5px;
+  height: auto;
+}
+.menu-link:hover {
+  background-color: #575757;
+}
+.submenu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+  min-width: 150px;
+  display: none;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+.submenu-item {
+  border: 1px solid #444;
+  border-radius: 5px;
+  display: block;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+.submenu-item a {
+  color: white;
+  text-decoration: none;
+}
+.submenu-item:hover {
+  background-color: #444;
+}
+.menu-item:hover .submenu {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+    text-align: left;
+    background: #333;
+    padding: 10px;
+    display: block; /* Initially hidden */
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+  }
+
+  .menu-item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .submenu {
+    position: relative;
+    display: none;
+    width: auto;
+    margin-left: 20px;
+  }
+
+  .submenu-item {
+    display: block;
+    width: 100%;
+    padding-left: 15px;
+  }
+
+  .menu-item:hover .submenu {
+    display: block;
+  }
+}
