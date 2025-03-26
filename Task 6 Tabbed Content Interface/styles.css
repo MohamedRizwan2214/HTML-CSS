@@ -1,0 +1,48 @@
+body {
+  
+  /* padding: 0; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"]:checked + label {
+  background-color: #007BFF; 
+}
+
+label {
+  display: block;
+  width: 400px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  background-color: #F8F9FA; 
+  cursor: pointer;
+  transition: background-color 0.7s;
+}
+
+.content-section {
+  display: none;
+}
+
+label:hover {
+  cursor: pointer;
+  background-color: #E2E6EA; 
+}
+
+input[type="radio"]:checked + label {
+  background-color: #0056b3; 
+}
+
+#tab1:checked ~ .content .content-section#content1,
+#tab2:checked ~ .content .content-section#content2,
+#tab3:checked ~ .content .content-section#content3 {
+  display: block;
+  margin-top: 20%;
+  text-align: center;
+  
+}
