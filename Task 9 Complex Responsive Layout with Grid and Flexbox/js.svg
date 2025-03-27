@@ -1,0 +1,51 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="850.474"
+  height="907.028"
+  viewBox="0 0 850.474 907.028"
+>
+  <g
+    id="Group_95318"
+    data-name="Group 95318"
+    transform="translate(-21.723 678.538) rotate(-49)"
+  >
+    <path
+      id="Path_196"
+      data-name="Path 196"
+      d="M0,16.459s36.058,22.8,115.267-7.81C287.225-57.8,232.519,283.834,402.794,177.36c89.253-55.81,126.7-88.905,188.353-35.315C732.378,264.8,706,407.212,907.972,289.417"
+      transform="translate(9.097 22.913)"
+      fill="none"
+      stroke="#7463C5"
+      stroke-width="3"
+    />
+    <path
+      id="Path_197"
+      data-name="Path 197"
+      d="M838.725,269.887c-36.72-76.845-144.469-78.744-216.312-32.474S476.076,345.92,395.961,182.448,278.568,36.69,214.687,56.412C48.754,100.773,0,0,0,0"
+      transform="translate(54.201 10.645)"
+      fill="none"
+      stroke="#6D9FED"
+      stroke-width="2"
+    />
+    <ellipse
+      id="Ellipse_68"
+      data-name="Ellipse 68"
+      cx="9.067"
+      cy="9.067"
+      rx="9.067"
+      ry="9.067"
+      transform="translate(0 30.441)"
+      fill="#7463C5"
+    />
+    <ellipse
+      id="Ellipse_69"
+      data-name="Ellipse 69"
+      cx="10.801"
+      cy="10.801"
+      rx="10.801"
+      ry="10.801"
+      transform="translate(45.193 0)"
+      fill="#6D9FED"
+    />
+  </g>
+</svg>
